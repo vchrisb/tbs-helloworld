@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: hellloworld
+  labels:
+    app: hellloworld
+spec:
+  ports:
+    - name: web
+      port: 80
+      targetPort: 8080
+      protocol: TCP
+  type: LoadBalancer
+  selector:
+    app: hellloworld
