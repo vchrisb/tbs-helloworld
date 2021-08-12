@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: helloworld
-        image: tbscbanck.azurecr.io/hello-world@sha256:8f35eda20eab5c20a268daf69209370ea5030d01ac3bf7d098fe241b3b716fd5
+        image: tbscbanck.azurecr.io/hello-world@sha256:bff3559bf63e38c78f7297e0825d7b59a42ba24dfd3f498f0ef10c5417fb5fc6
